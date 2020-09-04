@@ -1,0 +1,84 @@
+/* BODY (TOP ---> BOTTOM)*/
+.link-container{
+    display: block;
+    position: relative;
+    background: white;
+}
+.link-menu{
+    margin-left: 0;
+    padding: 15px 0;
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    color: black;
+}
+
+ul.inline>li{
+    display: inline-block;
+}
+a.active i{
+    color: #00a1cf;
+}
+.tab-item{
+    color: rgb(99, 99, 99);
+    padding: 0 15px;
+}
+
+.member-sec-nav{
+    padding: 5px 0 15px;
+}
+
+.member-sec-content{
+    padding: 0 0 40px 0;
+}
+
+.member-draft-list{
+    display: flex;
+}
+
+/* SETTINGS */
+.settings-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px;
+}
+.container-1020{
+    max-width: 1020px;
+    margin: 0 auto;
+    position: relative;
+}
+.boxed-content{
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 0 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.boxed-content p{
+    font-size: 14px;
+    margin: 3px 0 10px;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.mod-title{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    min-height: 24px;
+    margin: 0 0 15px 0;
+}
+
+form{
+    margin: 0 0 20px;
+}
+form input {
+    margin-bottom: 15px;
+}
+
+.hide-me{
+    display: none;
+}

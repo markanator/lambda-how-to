@@ -1,0 +1,40 @@
+.edit-container {
+    width: 80vw;
+    max-width: 1020px;
+    margin: 40px auto 35px;
+    background: #fff;
+    min-height: 150px;
+}
+.c-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hBtn{
+    margin: 0 5px;
+}
+.form-container{
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 90%;
+}
+
+.post-title{
+    width: 95% !important;
+}
+.post-input{
+    width: 95% !important;
+}
+
+.post-input textarea{
+    min-height: 250px !important;
+}
+
+@media (max-width: 845px){
+    .edit-container{
+        width: 100%;
+    }
+    .hBtn{
+        margin: 0 2px;
+    }
+}

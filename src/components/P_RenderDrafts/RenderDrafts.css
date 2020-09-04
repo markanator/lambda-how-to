@@ -1,0 +1,50 @@
+.article-card-main{
+    display: inline-block;
+}
+.card-item{
+    margin: 12px;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.card-body-group{
+    padding: 10px 13px;
+}
+
+.thumbnail-image{
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    border: 0;
+    overflow: hidden;
+}
+
+.title{
+    white-space: normal;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    max-height: 40px;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+}
+
+.edit-btn{
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.delete-btn{
+    display: none;
+    position: absolute;
+    top: 65px;
+    right: 20px;
+}

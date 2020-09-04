@@ -1,0 +1,57 @@
+/* BODY (TOP ---> BOTTOM)*/
+.link-container{
+    display: block;
+    position: relative;
+    background: white;
+}
+.link-menu{
+    margin-left: 0;
+    padding: 15px 0;
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    color: black;
+}
+
+ul.inline>li{
+    display: inline-block;
+}
+a.active i{
+    color: #00a1cf;
+}
+.tab-item{
+    color: rgb(99, 99, 99);
+    padding: 0 15px;
+}
+
+.member-sec-nav{
+    padding: 5px 0 15px;
+}
+
+.member-sec-content{
+    padding: 0 0 40px 0;
+}
+
+.member-draft-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.create-post-icon{
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: rgb(129, 129, 129);
+}
+
+.create-post a:hover{
+    text-decoration: none;
+    color: royalblue;
+    background: whitesmoke;
+}

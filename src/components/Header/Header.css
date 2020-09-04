@@ -1,0 +1,9 @@
+@media (max-width: 845px){
+    .header-search-bar{
+      display: none;
+    }
+  }
+
+  .search-input,.header-search-bar{
+    margin: 0;
+  }

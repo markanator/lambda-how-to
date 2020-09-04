@@ -1,0 +1,25 @@
+.footer-main{
+    background: #4285F4;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer-col-title{
+    line-height: 1.25rem;
+}
+.footer-main a {
+    text-align: center;
+    color: rgb(158, 195, 255);
+}
+
+.footer-copyright{
+    text-align: center;
+    padding: 10px;
+    background: #0d47a1;
+}
+
+
+.footer-copyright p {
+    padding: 5px 0;
+}
